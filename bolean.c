@@ -2,9 +2,11 @@
 #include <stdbool.h>
 int main()
 {
-	int num1 = 12;
-	int num2 = 5;
-	bool result = (12 > 5);
-	printf("%d\n", result);
+	int age = 18;
+	printf("enter age:");
+	scanf("%d\n", &age);
+	bool result = (age < 18);
+	printf("You are %d years old, please Ask an adult for permission \n", age);
 	return 0;
+	
 }
